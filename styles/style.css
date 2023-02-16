@@ -342,6 +342,23 @@ nav {
   display: flex;
   justify-content: center;
  }
+
+ /* facts */
+ .fact-parts {
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 40px 0;
+ }
+ .fact-details{
+  text-align: center;
+ }
+ .fact-title {
+  font-size: 38px;
+ }
+ .fact-description {
+  padding: 8px 0;
+ }
 }
 /* ====================================== */
 /* tablet */
@@ -394,5 +411,25 @@ nav {
  .feature-btn-float {
   top: 1685px;
   left: 10px;
+ }
+
+ /* fact */
+ .fact-details{
+  text-align: center;
+ }
+  .fact-parts {
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 40px 0;
+ }
+ .fact-details{
+  text-align: center;
+ }
+ .fact-title {
+  font-size: 38px;
+ }
+ .fact-description {
+  padding: 8px 0;
  }
 }
