@@ -145,4 +145,13 @@ nav {
  .nav-menu li {
   padding: 0 20px;
  }
+ /* banner */
+ .banner-details {
+  width: 90%;
+ }
+ .banner-title {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 65px;
+ }
 }
