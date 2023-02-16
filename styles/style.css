@@ -126,8 +126,8 @@ nav {
 .list-title .span2 {
  color: #ff900e;
 }
-.list-description{
- margin:24px 0 32px 0;
+.list-description {
+ margin: 24px 0 32px 0;
 }
 
 /* =============================== */
@@ -135,7 +135,7 @@ nav {
 
 @media only screen and (max-width: 576px) {
  .container {
-  margin: 28px 0;
+  margin: 50px 0;
  }
  /* navigation */
  .navigation,
@@ -166,6 +166,24 @@ nav {
  }
  .banner img {
   margin: 28px 0;
+ }
+ /* list */
+ .list {
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 45px;
+  padding: 0 16px;
+ }
+ .list-images {
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 16px;
+ }
+ .list-details {
+  text-align: center;
+ }
+ .list-title,
+ .list span {
+  font-size: 28px;
+  line-height: 38px;
  }
 }
 
