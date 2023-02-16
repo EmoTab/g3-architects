@@ -191,6 +191,10 @@ nav {
 /* tablet */
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
+ .btn {
+  font-size: 16px;
+  padding: 15px 25px;
+ }
  /* navigation */
  .navigation {
   flex-direction: column;
@@ -207,5 +211,11 @@ nav {
   font-weight: 600;
   font-size: 52px;
   line-height: 65px;
+ }
+ /* list */
+ .list-title,
+ .list span {
+  font-size: 38px;
+  line-height: 48px;
  }
 }
