@@ -264,14 +264,26 @@ nav {
  line-height: 26px;
  color: #727272;
 }
-.sponsors-images{
-  display: flex;
-  justify-content: center;
-  gap: 55px;
+.sponsors-images {
+ display: flex;
+ justify-content: center;
+ gap: 55px;
 }
-.sponsors-image{
-  display: flex;
-  gap: 55px;
+.sponsors-image {
+ display: flex;
+ gap: 55px;
+}
+footer {
+ background: #fff4e7;
+ border-radius: 8px;
+ padding: 38px 10px;
+}
+.copy-right {
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 23px;
+ text-align: center;
+ color: #424242;
 }
 
 /* =============================== */
@@ -399,17 +411,17 @@ nav {
   font-size: 14px;
   line-height: 24px;
  }
- .sponsors-images{
+ .sponsors-images {
   flex-direction: column;
-}
-.sponsors-image{
+ }
+ .sponsors-image {
   flex-direction: column;
   align-items: center;
-}
-.sponsors-image img{
-  width: 50%;
-}
  }
+ .sponsors-image img {
+  width: 50%;
+ }
+}
 
 /* ====================================== */
 /* tablet */
@@ -484,8 +496,8 @@ nav {
   padding: 8px 0;
  }
  /* sponsors */
- .sponsors-images{
+ .sponsors-images {
   flex-direction: column;
   align-items: center;
-}
+ }
 }
