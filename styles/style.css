@@ -400,6 +400,16 @@ nav {
   font-size: 14px;
   line-height: 24px;
  }
+ .sponsors-images{
+  flex-direction: column;
+}
+.sponsors-image{
+  flex-direction: column;
+  align-items: center;
+}
+.sponsors-image img{
+  width: 50%;
+}
  }
 
 /* ====================================== */
