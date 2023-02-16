@@ -57,3 +57,35 @@ nav {
  line-height: 26px;
  color: #424242;
 }
+/* ======================================= */
+
+/* mobile */
+
+@media only screen and (max-width: 576px) {
+ .navigation, .nav-menu ul {
+  flex-direction: column;
+ }
+ .nav-menu > ul {
+  text-align: center;
+  margin: 10px 0;
+ }
+ .nav-menu > ul li {
+  padding: 5px 0;
+ }
+}
+/* ======================================= */
+
+/* mobile */
+
+@media only screen and (max-width: 576px) {
+ .navigation, .nav-menu ul {
+  flex-direction: column;
+ }
+ .nav-menu > ul {
+  text-align: center;
+  margin: 10px 0;
+ }
+ .nav-menu > ul li {
+  padding: 5px 0;
+ }
+}
