@@ -63,8 +63,6 @@ nav {
  text-align: center;
  width: 70%;
  margin: 0 auto;
-
- border: 1px soldi black;
 }
 .banner-title {
  font-weight: 700;
@@ -89,7 +87,7 @@ nav {
  padding: 20px 25px;
  border: 0;
  border-radius: 10px;
- background-color: #FF900E;
+ background-color: #ff900e;
 }
 .banner img {
  width: 100%;
@@ -101,6 +99,9 @@ nav {
 /* mobile */
 
 @media only screen and (max-width: 576px) {
+ .container {
+  margin: 28px 0;
+ }
  /* navigation */
  .navigation,
  .nav-menu ul {
@@ -112,6 +113,24 @@ nav {
  }
  .nav-menu > ul li {
   padding: 5px 0;
+ }
+ /* banner */
+ .banner-details {
+  width: 100%;
+ }
+ .banner-title {
+  font-size: 28px;
+  line-height: 38px;
+ }
+ .banner-description {
+  padding: 0 16px;
+ }
+ .banner-btn {
+  font-size: 16px;
+  padding: 15px 25px;
+ }
+ .banner img {
+  margin: 28px 0;
  }
 }
 
